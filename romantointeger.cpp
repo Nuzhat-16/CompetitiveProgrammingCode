@@ -19,12 +19,9 @@ int romanToInt(string s){
     }
 int main() {
     string s;
-   // cout << "Enter a Roman numeral: ";
     cin >> s;
-    
     int result = romanToInt(s);
     cout <<   result << endl;
-    
     return 0;
 }
 
